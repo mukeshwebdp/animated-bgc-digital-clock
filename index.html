@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Project/background animation/style.css">
+    <title>Animation</title>
+</head>
+<body>
+    <div class="container"><span style="--i:11;"></span>
+        <div class="text">
+            <h1 id="time">12 : 10 : 50</h1>
+        </div>
+        <script>
+            setInterval(()=>{
+                const time = document.querySelector('h1')
+            let date = new Date()
+            let hours = date.getHours()
+            let minutes = date.getMinutes()
+            let second = date.getSeconds()
+            if(minutes < 10){
+                minutes = `0${minutes}`
+            }
+            if(second < 10){
+                second = `0${second}`
+            }
+            time.textContent = `${hours} : ${minutes} : ${second}`
+            })
+        </script>
+        <span style="--i:12;"></span>
+        <span style="--i:10;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:8;"></span>
+        <span style="--i:25;"></span>
+        <span style="--i:20;"></span>
+        <span style="--i:23;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:21;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:6;"></span>
+        <span style="--i:19;"></span>
+        <span style="--i:20;"></span>
+        <span style="--i:29;"></span>
+        <div class="bubbles">
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:1;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:8;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:29;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:1;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:8;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:33;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:29;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:1;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:8;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:29;"></span>
+            
+        </div>
+    </div>
+</body>
+</html>
